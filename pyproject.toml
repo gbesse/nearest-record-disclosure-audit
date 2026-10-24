@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nearest-record-disclosure-audit"
+version = "0.1.0a1"
+description = "FR: Mesurer les ressemblances aux données source sans promettre la confidentialité | EN: Measure source-record similarity without promising privacy | ES: Medir similitud con registros fuente sin prometer privacidad"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+nearest-record-disclosure-audit = "nearest_record_disclosure_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["nearest_record_disclosure_audit*"]

@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Mesurer les ressemblances aux données source sans promettre la confidentialité', 'en': 'Measure source-record similarity without promising privacy', 'es': 'Medir similitud con registros fuente sin prometer privacidad'}

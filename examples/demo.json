@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "age": {
+      "kind": "numeric",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "city": {
+      "kind": "category"
+    }
+  },
+  "source": [
+    {
+      "id": "s1",
+      "age": 40,
+      "city": "x"
+    }
+  ],
+  "holdout": [
+    {
+      "id": "h1",
+      "age": 60,
+      "city": "y"
+    }
+  ],
+  "synthetic": [
+    {
+      "id": "generated",
+      "age": 40,
+      "city": "x"
+    }
+  ]
+}
